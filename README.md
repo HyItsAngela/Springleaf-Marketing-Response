@@ -61,11 +61,11 @@ Visualization of some categorical and numerical features that compare the target
 
 ### Conclusions
 
-
+Since only one model was used, there are no comparisons between models to be made. The CatBoost model that was used did not perform up to my standards. To increase accuracy, more hyperparameter tuning may be needed.
 
 ### Future Work
 
-[work in progress]
+I would like to mess around more with the preprocessing with this dataset. I would also like to train and compare more models to find a better model, as well as study the learning curves to tune the base model better.
 
 ## How to reproduce results
 
@@ -77,9 +77,10 @@ Visualization of some categorical and numerical features that compare the target
 
 ### Overview of files in repository
 
-* The repository includes 3 files in total.
+* The repository includes 4 files in total.
   * data_understanding.ipynb:  provides my intitial walkthrough of trying to understand the data such as class distributions, features and missing values.
-  * preprocess_data.ipynb: explores the data further by dealing with the missing values and duplicates, visualizes the data, and transforms the dtypes appropriately.
+  * preprocess_data.ipynb: transforms and encodes the dtypes appropriately.
+  * data_clean.ipynb: explores the data further by dealing with the missing values and duplicates, visualizes the data
   * model_prediction.ipynb: trains the model, CatBoost on the preprocessed data.
 
 ### Software Setup
